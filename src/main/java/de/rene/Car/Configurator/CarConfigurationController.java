@@ -9,6 +9,7 @@ import java.util.List;
 
 @CrossOrigin
 @RestController
+@RequestMapping("/configs")
 public class CarConfigurationController {
 
     @Autowired
