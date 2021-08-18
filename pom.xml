@@ -77,6 +77,8 @@
 				<configuration>
 					<url>http://157.90.116.81:8081/manager/text</url>
 					<server>TomcatServer</server>
+					<username>admin</username>
+					<password>Jasmin12</password>
 					<path>/carconfigurator</path>
 				</configuration>
 			</plugin>
