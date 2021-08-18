@@ -80,6 +80,7 @@
 					<username>maven-deploy</username>
 					<password>maven</password>
 					<path>/carconfigurator</path>
+					<update>true</update>
 				</configuration>
 			</plugin>
 			<plugin>
