@@ -9,6 +9,8 @@ public class CarConfiguration {
     @Id
     public String id;
 
+    public int basePrice;
+
     public String name;
 
     public List<ConfigurationOption> engine;
