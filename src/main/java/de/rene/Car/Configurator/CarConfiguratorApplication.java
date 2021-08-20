@@ -1,4 +1,4 @@
-package de.rene.Car.Configurator.CarConfiguration;
+package de.rene.Car.Configurator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
