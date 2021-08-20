@@ -1,4 +1,4 @@
-package de.rene.Car.Configurator;
+package de.rene.Car.Configurator.CarConfiguration;
 
 public class ConfigurationOption {
     public String name;

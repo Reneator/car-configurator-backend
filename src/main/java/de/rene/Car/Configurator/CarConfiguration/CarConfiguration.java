@@ -1,4 +1,4 @@
-package de.rene.Car.Configurator;
+package de.rene.Car.Configurator.CarConfiguration;
 
 import org.springframework.data.annotation.Id;
 

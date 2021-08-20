@@ -1,12 +1,11 @@
-package de.rene.Car.Configurator;
+package de.rene.Car.Configurator.CarConfiguration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import de.rene.Car.Configurator.Order.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import javax.swing.text.html.Option;
 import java.util.List;
 import java.util.Optional;
 
@@ -17,8 +16,7 @@ public class CarConfigurationController {
 
     @Autowired
     private CarConfigurationRepository repository;
-    @Autowired
-    private OrderRepository orderRepository;
+
 
     @GetMapping("/{id}")
     public CarConfiguration getById(String id) {
@@ -58,10 +56,6 @@ public class CarConfigurationController {
         List<CarConfiguration> configurations = repository.findAll();
         return configurations;
     }
-    @PostMapping("/order")
-    public CarConfiguration addOrder(CarConfiguration configuration) {
-        CarConfiguration config = orderRepository.insert(configuration);
-        return config;
-    }
+
 
 }
