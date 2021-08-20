@@ -2,7 +2,6 @@ package de.rene.Car.Configurator.CarConfiguration;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.rene.Car.Configurator.Order.OrderRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -23,11 +22,13 @@ public class CarConfigurationController {
         Optional<CarConfiguration> config = repository.findById(id);
         return config.get();
     }
+
     @PostMapping("/")
     public CarConfiguration addConfig(CarConfiguration configuration) {
         CarConfiguration config = repository.insert(configuration);
         return config;
     }
+
     @PostMapping("/json")
     public CarConfiguration addConfigByJson(String json) throws JsonProcessingException {
         ObjectMapper mapper = new ObjectMapper();
@@ -35,17 +36,19 @@ public class CarConfigurationController {
         CarConfiguration newConfig = repository.insert(config);
         return newConfig;
     }
+
     @PutMapping("/")
     public CarConfiguration updateConfig(CarConfiguration configuration) {
         CarConfiguration config = repository.insert(configuration);
         return config;
     }
+
     @DeleteMapping("/{id}")
     public void delete(String id) {
         Optional<CarConfiguration> config = repository.findById(id);
-        if(config.isPresent()){
+        if (config.isPresent()) {
             repository.delete(config.get());
-            System.out.println("Successfully Deleted id: "+ id);
+            System.out.println("Successfully Deleted id: " + id);
         } else {
             System.out.println("No Configuration found for id:" + id);
         }
