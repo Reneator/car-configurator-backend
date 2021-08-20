@@ -17,6 +17,8 @@ public class CarConfigurationController {
 
     @Autowired
     private CarConfigurationRepository repository;
+    @Autowired
+    private OrderRepository orderRepository;
 
     @GetMapping("/{id}")
     public CarConfiguration getById(String id) {
@@ -55,6 +57,11 @@ public class CarConfigurationController {
     public List<CarConfiguration> getAll() {
         List<CarConfiguration> configurations = repository.findAll();
         return configurations;
+    }
+    @PostMapping("/order")
+    public CarConfiguration addOrder(CarConfiguration configuration) {
+        CarConfiguration config = orderRepository.insert(configuration);
+        return config;
     }
 
 }
