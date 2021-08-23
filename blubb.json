@@ -1,0 +1,152 @@
+{
+  "0": {
+    "[Node:7637]": {
+      "strength_multiplier": 1,
+      "dexterity_multiplier": 1,
+      "endurance_multiplier": 1,
+      "intelligence_multiplier": 1,
+      "crit_chance": 0.05,
+      "crit_damage_multiplier": 0.5,
+      "armor_multiplier": 1,
+      "block_chance_multiplier": 1,
+      "block_damage_multiplier": 1,
+      "max_hp": 15,
+      "hp_reg": 0.05,
+      "max_mana": 15,
+      "max_mana_multiplier": 1,
+      "mana_reg": 0.4,
+      "mana_reg_multiplier": 1
+    }
+  },
+  "10": {
+    "[TextureButton:8255]": {},
+    "[TextureButton:8257]": {},
+    "[TextureButton:8259]": {},
+    "[TextureButton:8261]": {
+      "strength": 1,
+      "dexterity": 1,
+      "endurance": 1
+    },
+    "[TextureButton:8264]": {
+      "strength": 1,
+      "endurance": 2,
+      "armor": 3
+    },
+    "[TextureButton:8266]": {},
+    "[TextureButton:8269]": {},
+    "[TextureButton:8271]": {},
+    "[TextureButton:8273]": {},
+    "[VBoxContainer:5725]": {}
+  },
+  "20": {
+    "[Node:7639]": {
+      "strength": 8,
+      "wisdom": 8,
+      "intelligence": 8,
+      "dexterity": 8,
+      "endurance": 8
+    },
+    "[Node:7868]": {
+      "max_hp": 35
+    },
+    "[Node:7869]": {
+      "max_mana": 14
+    }
+  },
+  "40": {
+    "[Node:7748]": {},
+    "[Node:7750]": {},
+    "[Node:7752]": {},
+    "[Node:7754]": {
+      "strength": 3,
+      "endurance": 3,
+      "armor": 2
+    },
+    "[Node:7756]": {},
+    "[Node:7760]": {},
+    "[Node:7764]": {},
+    "[Node:7768]": {},
+    "[Node:7772]": {
+      "sword_damage_multiplier": 0.14,
+      "strength": 8,
+      "dexterity": 8,
+      "endurance": 4,
+      "weapon_damage_multiplier": 0.08
+    },
+    "[Node:7776]": {},
+    "[Node:7780]": {},
+    "[Node:7784]": {},
+    "[Node:7786]": {
+      "strength": 3,
+      "gathering_speed_multiplier": 0.03,
+      "gathering_quantity_multiplier": 0.03,
+      "mining_speed_multiplier": 0.15,
+      "mining_quantity_multiplier": 0.15
+    },
+    "[Node:7788]": {},
+    "[Node:7790]": {
+      "strength": 0
+    }
+  },
+  "50": {
+    "[Node:7666]": {},
+    "[Node:7675]": {},
+    "[Node:7684]": {},
+    "[Node:7690]": {},
+    "[Node:7693]": {},
+    "[Node:7696]": {},
+    "[Node:7699]": {},
+    "[Node:7702]": {},
+    "[Node:7705]": {},
+    "[Node:7708]": {},
+    "[Node:7711]": {},
+    "[Node:7714]": {},
+    "[Node:7717]": {},
+    "[Node:7720]": {},
+    "[Node:7723]": {},
+    "[Node:7726]": {},
+    "[Node:7727]": {},
+    "[Node:7728]": {},
+    "[Node:7729]": {},
+    "[Node:7730]": {},
+    "[Node:7731]": {},
+    "[Node:7732]": {},
+    "[Node:7733]": {},
+    "[Node:7734]": {},
+    "[Node:7735]": {},
+    "[Node:7736]": {},
+    "[Node:7737]": {},
+    "[Node:7738]": {},
+    "[Node:7739]": {},
+    "[Node:7745]": {},
+    "[Node:7746]": {},
+    "[PanelContainer:5039]": {}
+  },
+  "101": {
+    "[Node:7867]": {
+      "max_hp": 90
+    }
+  },
+  "105": {
+    "[Node:7870]": {
+      "max_mana": 40
+    },
+    "[Node:7871]": {
+      "mana_reg": 0.8
+    },
+    "[Node:7873]": {
+      "spell_power": 8
+    }
+  },
+  "301": {
+    "[Node:7642]": {},
+    "[Node:7644]": {},
+    "[Node:7646]": {},
+    "[Node:7649]": {},
+    "[Node:7651]": {},
+    "[Node:7653]": {},
+    "[Node:7656]": {},
+    "[Node:7659]": {},
+    "[Node:7662]": {}
+  }
+}
